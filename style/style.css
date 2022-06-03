@@ -122,7 +122,7 @@ navbar {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-bottom: 2px solid #fff;
-  background-color: #0d025b;
+  background-color: #857efe;
   width: 100%;
 }
 navbar .logo {
@@ -148,6 +148,7 @@ navbar ul li a {
 }
 
 header {
+  background: url("../imges/bg-3.jpg") no-repeat center center/cover;
   height: 100vh;
 }
 header .header {
@@ -165,22 +166,6 @@ header .header h1 {
 header .header p {
   padding-bottom: 3rem;
   font-size: 1.2rem;
-}
-
-.headerImg_1 {
-  background: url("../imges/bg-1.jpg") no-repeat center center/cover;
-}
-
-.headerImg_2 {
-  background: url("../imges/bg-2.jpg") no-repeat center center/cover;
-}
-
-.headerImg_3 {
-  background: url("../imges/bg-3.jpg") no-repeat center center/cover;
-}
-
-.headerImg_4 {
-  background: url("../imges/bg-4.jpg") no-repeat center center/cover;
 }
 
 .the_line {
@@ -236,7 +221,7 @@ header .header p {
 }
 
 .Our-Team {
-  background-color: #0d025b;
+  background-color: #857efe;
   height: 90vh;
   margin-top: 300px;
 }
@@ -265,7 +250,7 @@ header .header p {
 
 footer {
   margin-top: 200px;
-  background-color: #1f1379;
+  background-color: #0b8cac;
   height: 50vh;
 }
 footer div {
@@ -342,7 +327,7 @@ footer div ul li a {
   }
   .navbar_block ul {
     z-index: 999;
-    background-color: #ffffff;
+    background-color: #857efe;
     width: 80%;
     height: auto;
     text-align: center;

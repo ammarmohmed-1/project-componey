@@ -9,22 +9,6 @@ open.addEventListener("click", ()=>{
   
 });
 
-//  change a background header
-
-var header = document.querySelector(".headerImg_1");
-
-var change_img = ['headerImg_1','headerImg_2','headerImg_3','headerImg_4']
-
-setInterval(()=> {
-
-  header.className = change_img[i];
-  i++
-
-  if(i >= change_img.length){
-    i = 0
-  }
-
-}, 7000);
 
 // Our service
 var swiper = new Swiper(".mySwiper", {
