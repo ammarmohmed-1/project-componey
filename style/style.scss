@@ -1,0 +1,189 @@
+@import "_main.scss";
+
+// start style the Navbar
+
+navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+    background-color: #0d025b;
+    width: 100%;
+    
+
+    .logo{
+        width: 90px;
+        height: auto;
+    }
+    
+    .open,.close{
+        display: none;
+    }
+
+    ul{
+        position: absolute;
+        right: -10px; 
+        display: flex;
+        margin-right: 100px;
+
+        li{
+            a{color: #fff;}
+            
+            margin-left: 2rem;
+        }
+
+    }
+}
+
+// end style the Navbar
+
+
+
+// start style the header
+header{
+    height: 100vh;
+    .header{
+        z-index: 22;
+        position: absolute;
+        top: 110px;
+        max-width: 50%;
+        width: 50%;
+        padding: 5% ;
+        
+        h1{padding: 1rem 0rem; color: #000;}
+        
+        p{
+            padding-bottom:3rem;
+            font-size: 1.2rem;
+        }
+    }
+}
+.headerImg_1{
+    background: url("../imges/bg-1.jpg") no-repeat center center /cover ;
+}
+.headerImg_2{
+    background: url("../imges/bg-2.jpg") no-repeat center center /cover ;
+}
+.headerImg_3{
+    background: url("../imges/bg-3.jpg") no-repeat center center /cover ;
+
+}
+.headerImg_4{
+    background: url("../imges/bg-4.jpg") no-repeat center center /cover ;
+}
+.the_line{
+    background-color: blue;
+    border-radius: 5px;
+    width: 50%;  height: 5px;
+    padding: .2rem;
+    margin: 2rem auto;
+}
+// end style the header
+
+// start style Our_Service
+.Our_Service{
+    height: 100vh;
+    .mySwiper{
+        width: 95%;
+        margin-top: 100px;
+        text-align: center;
+
+        .swiper-slide{
+            cursor: grabbing;
+            border: 1px solid #000;
+            border-radius: 10px;
+            max-width: 40%;
+            height: auto;
+            overflow: hidden;
+            padding: 1rem;
+            ///////////////////////
+            p{margin-top:2rem;}
+            //////////////////////
+            .tittle_ser{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                padding: 1rem  0px;
+                img{
+                    width: 100px;
+                    height: auto;
+                }
+            }
+            .Links{
+                padding: 2rem 0rem;
+                h3{ margin: 1rem; }
+            }
+
+        }
+    }
+}
+// end style Our_Service
+
+// start style Our_Team
+.Our-Team{
+    background-color: #0d025b;
+    height: 90vh;
+    margin-top: 300px;
+    
+    .swiper-wrapper{
+        width: 90%;
+        height: 400px;
+        margin: auto 5%;
+        .swiper-slide{
+            cursor: grabbing;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+            img{
+                border-radius: 50%;
+                border: 1px solid #000;
+                width: 120px;
+                height: 120px;
+            }
+            p{
+                padding: 2rem;
+            }
+
+        }
+    }
+}
+// start style Our_Team
+
+
+// start style footer
+footer{
+    margin-top: 200px;
+    background-color:#1f1379;
+    height: 50vh;
+    div{
+        margin-top: 20px;
+        width: 100%;
+        
+        h2{ text-align: center; }
+        
+        ul{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 2rem 0rem;
+           
+            li{
+                background-color: rgb(103, 87, 87);
+                border-radius: 10px;
+                padding: 1.3rem;
+                cursor: pointer;
+                
+                a{
+                    font-size: 1.4rem;
+                    color: #fff; 
+                }
+            }
+        }
+    }
+}
+
+
+
+@import "Responsve.scss";

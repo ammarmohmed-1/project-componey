@@ -1,0 +1,44 @@
+*{
+    padding: 0px;  margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all 0.4s ease-in-out;
+}
+
+//  style the All buttom
+.btn{
+    color: #fff;
+    background-color: rgb(6, 13, 201);
+    padding: 1rem 2.4rem;
+    border-radius: 5px;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem 0rem;
+}
+h1,h2{
+color: #fff;
+}
+// style the background-color contact numbers
+
+    .fa-facebook:hover{background-color: rgb(20, 96, 238);}
+    .instagram:hover{background-color: rgb(211, 51, 115);}
+    .twitter:hover{background-color: rgb(78, 132, 231);}
+    .phone:hover{background-color: rgb(104, 238, 20);}
+    .whatsapp:hover{background-color: rgb(87, 192, 45);}
+
+@keyframes navbar {
+    0%{transform: translate(100vw, 0);}
+    40%{transform: translate(-30vw, 0);}
+    60%{transform: translate(20vw , 0);}
+    60%{transform: translate(-10vw , 0);}
+    100%{transform: translate(0 , 0);}
+}
+
+@keyframes header {
+    0%{transform: translate(100vw, 0);}
+    100%{transform: translate(0 , 0);}
+}
