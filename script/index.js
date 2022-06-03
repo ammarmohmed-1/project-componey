@@ -14,16 +14,15 @@ open.addEventListener("click", ()=>{
 var header = document.querySelector(".headerImg_1");
 console.log(header);
 
-var change_img =["headerImg_1","headerImg_2","headerImg_3","headerImg_4"]
+var change_img = ['url("../imges/bg-1.jpg")','url("../imges/bg-2.jpg")','url("../imges/bg-3.jpg")','url("../imges/bg-4.jpg")','url("../imges/bg-5.jpg")',]
 
 setInterval(()=> {
-  header.className = change_img[i]
+  header.style.backgroundImges = change_img[i]
   i++
-  if(i == change_img.length){
-    i = 0
+  if(i = change_img.length){
+    i=0
   }
-}, 3000);
-
+}, 1000);
 
 // Our service
 var swiper = new Swiper(".mySwiper", {

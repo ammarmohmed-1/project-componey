@@ -41,6 +41,7 @@ navbar{
 
 // start style the header
 header{
+    background: url("../imges/bg-1.jpg") no-repeat center center /cover ;
     height: 100vh;
     .header{
         z-index: 22;
@@ -58,19 +59,7 @@ header{
         }
     }
 }
-.headerImg_1{
-    background: url("../imges/bg-1.jpg") no-repeat center center /cover ;
-}
-.headerImg_2{
-    background: url("../imges/bg-2.jpg") no-repeat center center /cover ;
-}
-.headerImg_3{
-    background: url("../imges/bg-3.jpg") no-repeat center center /cover ;
 
-}
-.headerImg_4{
-    background: url("../imges/bg-4.jpg") no-repeat center center /cover ;
-}
 .the_line{
     background-color: blue;
     border-radius: 5px;
