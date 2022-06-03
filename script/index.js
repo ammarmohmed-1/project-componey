@@ -14,14 +14,17 @@ open.addEventListener("click", ()=>{
 var header = document.querySelector(".headerImg_1");
 
 var change_img = ['headerImg_1','headerImg_2','headerImg_3','headerImg_4']
-var change_img_1 = ['url("../imges/bg-1.jpg")','url("../imges/bg-2.jpg")','url("../imges/bg-3.jpg")','url("../imges/bg-4.jpg")','url("../imges/bg-5.jpg")']
 
 setInterval(()=> {
 
-  header.className = change_img[i]
+  header.className = change_img[i];
   i++
 
-}, 6000);
+  if(i >= change_img.length){
+    i = 0
+  }
+
+}, 7000);
 
 // Our service
 var swiper = new Swiper(".mySwiper", {
